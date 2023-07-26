@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("ELEVENLABS_API_KEY")
 
 with st.sidebar:
-    with st.expander(label="llElevenLabs", expanded=False):
+    with st.expander(label="ElevenLabs", expanded=False):
         st.caption(
             "The basic API has a limited number of characters. To increase this limit, you can get a free API key from [llElevenLabs](https://beta.elevenlabs.io/subscription)")
         API_KEY = st.text_input(label="API KEY")
